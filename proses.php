@@ -4,6 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$angka2 = $_POST["angka2"];
 	$operasi = $_POST["operasi"];
 
+
 	if ($operasi == "+") {
 		$hasil = $angka1 + $angka2;
 		echo "Hasil penambahan: " . $hasil;
@@ -17,6 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		echo "Operasi tidak valid.";
 	}
 }
+
 
 
 
